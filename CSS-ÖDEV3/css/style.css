@@ -1,0 +1,255 @@
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  text-align: center;
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align:right;
+  padding: 5px 5px;
+  text-decoration: none;
+  float: right;
+  margin: 10px;
+
+}
+
+.headerli a:hover {
+  text-decoration:none;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 30px;
+  box-shadow: none;
+  z-index: 3;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 602px;
+box-sizing: border-box;
+}
+#box {
+  max-width: 300px;
+  position: relative;
+}
+
+#box .fa-search {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-size: 20px;
+  color:cornflowerblue;
+}
+
+#search {
+  width: 600px;
+  box-sizing: border-box;
+  border: 2px solid cornflowerblue;
+  border-radius: 40px;
+  font-size:18px;
+  padding: 12px 20px 12px 40px;
+  -moz-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+  padding-left: 500px;
+  margin-left: 550px;
+}
+
+#search:focus {
+  width: 100%;
+}
+
+.search-area:hover {
+box-shadow: 2px 2px 4px 2px rgba(205, 205, 205, 0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 54px;
+  height: 40px;
+  
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.buttons{
+  text-align: center;
+  border-width:0.1 ;
+  
+}
+
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+}
+.XDyW0e {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+.googlesearch {
+ 
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-color: #f2f2f2;
+border-radius: 4px;
+color: #5f6368;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+margin: 20px;
+text-decoration: none;
+}
+
+.feelinglucky {
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-color: #f2f2f2;
+border-radius: 4px;
+color: #5f6368;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+text-decoration: none;
+
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+form.search {
+  display: flex;
+  width: 700px;
+  padding-left: 34%;
+  border-radius: 40px;
+}
+form.search input {
+  
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0 15px;
+  flex: 1;
+  outline: 0;
+}
+
+form.search button {
+  height: 40px;
+  padding: 0 30px;
+  background: #393a3b;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
